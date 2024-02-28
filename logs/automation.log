@@ -1,0 +1,35 @@
+15:20:08.087 [main] INFO  com.regressiontestcases.RegressionTests - new bike menu is clicked
+15:20:08.336 [main] INFO  com.regressiontestcases.RegressionTests - selecting the upcoming bikes option
+15:20:11.682 [main] INFO  com.regressiontestcases.RegressionTests - choosing the manufacturer as honda
+15:20:13.498 [main] INFO  com.regressiontestcases.RegressionTests - getting the bike details and printing in the console
+15:20:17.357 [main] INFO  com.regressiontestcases.RegressionTests - getting the popular car models list
+15:20:23.847 [main] INFO  com.regressiontestcases.RegressionTests - verifying the google sign in functionality
+15:26:48.470 [main] INFO  com.regressiontestcases.RegressionTests - driver is initiated and the website is launched
+15:28:05.373 [main] INFO  com.regressiontestcases.RegressionTests - new bike menu is clicked
+15:28:05.625 [main] INFO  com.regressiontestcases.RegressionTests - selecting the upcoming bikes option
+15:28:06.708 [main] INFO  com.regressiontestcases.RegressionTests - choosing the manufacturer as honda
+15:28:08.222 [main] INFO  com.regressiontestcases.RegressionTests - getting the bike details and printing in the console
+15:28:22.825 [main] INFO  com.regressiontestcases.RegressionTests - getting the popular car models list
+15:28:23.119 [main] ERROR com.regressiontestcases.RegressionTests - used cars testcase failed
+15:28:23.391 [main] INFO  com.regressiontestcases.RegressionTests - verifying the google sign in functionality
+15:28:41.990 [main] INFO  com.regressiontestcases.RegressionTests - driver is initiated and the website is launched
+15:29:12.269 [main] INFO  com.regressiontestcases.RegressionTests - new bike menu is clicked
+15:29:12.578 [main] INFO  com.regressiontestcases.RegressionTests - selecting the upcoming bikes option
+15:29:17.107 [main] INFO  com.regressiontestcases.RegressionTests - choosing the manufacturer as honda
+15:29:18.410 [main] INFO  com.regressiontestcases.RegressionTests - getting the bike details and printing in the console
+15:29:22.187 [main] INFO  com.regressiontestcases.RegressionTests - getting the popular car models list
+15:29:27.603 [main] INFO  com.regressiontestcases.RegressionTests - verifying the google sign in functionality
+15:32:59.657 [main] INFO  com.regressiontestcases.RegressionTests - driver is initiated and the website is launched
+15:35:04.898 [main] INFO  com.regressiontestcases.RegressionTests - new bike menu is clicked
+15:35:05.450 [main] INFO  com.regressiontestcases.RegressionTests - selecting the upcoming bikes option
+15:35:14.910 [main] INFO  com.regressiontestcases.RegressionTests - choosing the manufacturer as honda
+15:35:17.168 [main] INFO  com.regressiontestcases.RegressionTests - getting the bike details and printing in the console
+15:35:49.949 [main] INFO  com.regressiontestcases.RegressionTests - getting the popular car models list
+15:36:09.892 [main] INFO  com.regressiontestcases.RegressionTests - verifying the google sign in functionality
+15:36:46.091 [main] INFO  com.regressiontestcases.RegressionTests - driver is initiated and the website is launched
+15:37:33.988 [main] INFO  com.regressiontestcases.RegressionTests - new bike menu is clicked
+15:37:36.947 [main] INFO  com.regressiontestcases.RegressionTests - selecting the upcoming bikes option
+15:37:42.264 [main] INFO  com.regressiontestcases.RegressionTests - choosing the manufacturer as honda
+15:37:44.296 [main] INFO  com.regressiontestcases.RegressionTests - getting the bike details and printing in the console
+15:37:48.865 [main] INFO  com.regressiontestcases.RegressionTests - getting the popular car models list
+15:37:56.505 [main] INFO  com.regressiontestcases.RegressionTests - verifying the google sign in functionality

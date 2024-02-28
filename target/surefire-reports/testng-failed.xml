@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.regressiontestcases.RegressionTests">
+        <methods>
+          <include name="testGoogleSignIn"/>
+          <include name="setup"/>
+          <include name="closeDriver"/>
+          <include name="upComingBikes"/>
+          <include name="usedCars"/>
+        </methods>
+      </class> <!-- com.regressiontestcases.RegressionTests -->
+      <class name="test.AllTests">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="teardown"/>
+          <include name="usedCars"/>
+          <include name="setup"/>
+          <include name="upComingBikes"/>
+          <include name="testGoogleSignIn"/>
+        </methods>
+      </class> <!-- test.AllTests -->
+      <class name="com.smoketestcases.SmokeTest">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="usedCars"/>
+          <include name="upComingBikes"/>
+          <include name="setup"/>
+          <include name="testGoogleSignIn"/>
+        </methods>
+      </class> <!-- com.smoketestcases.SmokeTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
