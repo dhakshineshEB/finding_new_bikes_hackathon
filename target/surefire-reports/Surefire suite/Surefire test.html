@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/9</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/8</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Feb 26 22:45:11 IST 2024</td>
+<td>Started on:</td><td>Mon Mar 04 21:18:20 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (239 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (156 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.regressiontestcases.RegressionTests.setup()'><b>setup</b><br>Test class: com.regressiontestcases.RegressionTests</td>
+<td title='regression.RegressionTests.setup()'><b>setup</b><br>Test class: regression.RegressionTests</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace6444850", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace6444850'><pre>org.testng.TestNGException: 
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1661123505", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1661123505'><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
@@ -114,16 +114,16 @@ Parameter &apos;browser&apos; is required by BeforeClass on method setup but has
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>-1708967711</td>
-<td>com.regressiontestcases.RegressionTests@ba2f4ec</td></tr>
+<td>-1709567300</td>
+<td>regression.RegressionTests@21de60b4</td></tr>
 <tr>
-<td title='com.smoketestcases.SmokeTest.setup()'><b>setup</b><br>Test class: com.smoketestcases.SmokeTest</td>
+<td title='smoke.SmokeTest.setup()'><b>setup</b><br>Test class: smoke.SmokeTest</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1899223686", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1899223686'><pre>org.testng.TestNGException: 
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace396283472", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace396283472'><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
@@ -155,49 +155,8 @@ Parameter &apos;browser&apos; is required by BeforeClass on method setup but has
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>-1708967711</td>
-<td>com.smoketestcases.SmokeTest@24aed80c</td></tr>
-<tr>
-<td title='test.AllTests.setup()'><b>setup</b><br>Test class: test.AllTests</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
-
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2146338580", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2146338580'><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
-
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>-1708967711</td>
-<td>test.AllTests@2e377400</td></tr>
+<td>-1709567300</td>
+<td>smoke.SmokeTest@5e82df6a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -208,35 +167,15 @@ Parameter &apos;browser&apos; is required by BeforeClass on method setup but has
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.AllTests.teardown()'><b>teardown</b><br>Test class: test.AllTests</td>
+<td title='regression.RegressionTests.closeDriver()'><b>closeDriver</b><br>Test class: regression.RegressionTests</td>
 <td></td>
 <td>0</td>
-<td>test.AllTests@2e377400</td></tr>
+<td>regression.RegressionTests@21de60b4</td></tr>
 <tr>
-<td title='test.AllTests.teardown()'><b>teardown</b><br>Test class: test.AllTests</td>
+<td title='smoke.SmokeTest.closeDriver()'><b>closeDriver</b><br>Test class: smoke.SmokeTest</td>
 <td></td>
 <td>0</td>
-<td>test.AllTests@2e377400</td></tr>
-<tr>
-<td title='test.AllTests.closeDriver()'><b>closeDriver</b><br>Test class: test.AllTests</td>
-<td></td>
-<td>0</td>
-<td>test.AllTests@2e377400</td></tr>
-<tr>
-<td title='com.regressiontestcases.RegressionTests.closeDriver()'><b>closeDriver</b><br>Test class: com.regressiontestcases.RegressionTests</td>
-<td></td>
-<td>0</td>
-<td>com.regressiontestcases.RegressionTests@ba2f4ec</td></tr>
-<tr>
-<td title='com.smoketestcases.SmokeTest.closeDriver()'><b>closeDriver</b><br>Test class: com.smoketestcases.SmokeTest</td>
-<td></td>
-<td>0</td>
-<td>com.smoketestcases.SmokeTest@24aed80c</td></tr>
-<tr>
-<td title='test.AllTests.teardown()'><b>teardown</b><br>Test class: test.AllTests</td>
-<td></td>
-<td>0</td>
-<td>test.AllTests@2e377400</td></tr>
+<td>smoke.SmokeTest@5e82df6a</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -247,13 +186,13 @@ Parameter &apos;browser&apos; is required by BeforeClass on method setup but has
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.regressiontestcases.RegressionTests.upComingBikes()'><b>upComingBikes</b><br>Test class: com.regressiontestcases.RegressionTests</td>
+<td title='regression.RegressionTests.usedCars()'><b>usedCars</b><br>Test class: regression.RegressionTests</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace262445056", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace262445056'><pre>org.testng.TestNGException: 
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace590845366", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace590845366'><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
@@ -286,15 +225,15 @@ Parameter &apos;browser&apos; is required by BeforeClass on method setup but has
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>com.regressiontestcases.RegressionTests@ba2f4ec</td></tr>
+<td>regression.RegressionTests@21de60b4</td></tr>
 <tr>
-<td title='com.smoketestcases.SmokeTest.testGoogleSignIn()'><b>testGoogleSignIn</b><br>Test class: com.smoketestcases.SmokeTest</td>
+<td title='smoke.SmokeTest.upComingBikes()'><b>upComingBikes</b><br>Test class: smoke.SmokeTest</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1207608476", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1207608476'><pre>org.testng.TestNGException: 
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1020520290", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1020520290'><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
@@ -327,15 +266,15 @@ Parameter &apos;browser&apos; is required by BeforeClass on method setup but has
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>com.smoketestcases.SmokeTest@24aed80c</td></tr>
+<td>smoke.SmokeTest@5e82df6a</td></tr>
 <tr>
-<td title='test.AllTests.upComingBikes()'><b>upComingBikes</b><br>Test class: test.AllTests</td>
+<td title='regression.RegressionTests.capture_errormessage()'><b>capture_errormessage</b><br>Test class: regression.RegressionTests</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1110031167", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1110031167'><pre>org.testng.TestNGException: 
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1541049864", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1541049864'><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
@@ -368,15 +307,15 @@ Parameter &apos;browser&apos; is required by BeforeClass on method setup but has
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>test.AllTests@2e377400</td></tr>
+<td>regression.RegressionTests@21de60b4</td></tr>
 <tr>
-<td title='com.regressiontestcases.RegressionTests.testGoogleSignIn()'><b>testGoogleSignIn</b><br>Test class: com.regressiontestcases.RegressionTests</td>
+<td title='smoke.SmokeTest.usedCars()'><b>usedCars</b><br>Test class: smoke.SmokeTest</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1296456465", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1296456465'><pre>org.testng.TestNGException: 
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace530653666", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace530653666'><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
@@ -409,15 +348,15 @@ Parameter &apos;browser&apos; is required by BeforeClass on method setup but has
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>com.regressiontestcases.RegressionTests@ba2f4ec</td></tr>
+<td>smoke.SmokeTest@5e82df6a</td></tr>
 <tr>
-<td title='com.smoketestcases.SmokeTest.upComingBikes()'><b>upComingBikes</b><br>Test class: com.smoketestcases.SmokeTest</td>
+<td title='smoke.SmokeTest.newbikemenu()'><b>newbikemenu</b><br>Test class: smoke.SmokeTest</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace842179210", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace842179210'><pre>org.testng.TestNGException: 
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace989892772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace989892772'><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
@@ -450,15 +389,15 @@ Parameter &apos;browser&apos; is required by BeforeClass on method setup but has
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>com.smoketestcases.SmokeTest@24aed80c</td></tr>
+<td>smoke.SmokeTest@5e82df6a</td></tr>
 <tr>
-<td title='test.AllTests.usedCars()'><b>usedCars</b><br>Test class: test.AllTests</td>
+<td title='smoke.SmokeTest.testGoogleSignIn()'><b>testGoogleSignIn</b><br>Test class: smoke.SmokeTest</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace730923082", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace730923082'><pre>org.testng.TestNGException: 
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2125238280", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2125238280'><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
@@ -491,15 +430,15 @@ Parameter &apos;browser&apos; is required by BeforeClass on method setup but has
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>test.AllTests@2e377400</td></tr>
+<td>smoke.SmokeTest@5e82df6a</td></tr>
 <tr>
-<td title='com.regressiontestcases.RegressionTests.usedCars()'><b>usedCars</b><br>Test class: com.regressiontestcases.RegressionTests</td>
+<td title='regression.RegressionTests.testGoogleSignIn()'><b>testGoogleSignIn</b><br>Test class: regression.RegressionTests</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace943454742", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace943454742'><pre>org.testng.TestNGException: 
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1052195003", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1052195003'><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
@@ -532,15 +471,15 @@ Parameter &apos;browser&apos; is required by BeforeClass on method setup but has
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>com.regressiontestcases.RegressionTests@ba2f4ec</td></tr>
+<td>regression.RegressionTests@21de60b4</td></tr>
 <tr>
-<td title='test.AllTests.testGoogleSignIn()'><b>testGoogleSignIn</b><br>Test class: test.AllTests</td>
+<td title='regression.RegressionTests.upComingBikes()'><b>upComingBikes</b><br>Test class: regression.RegressionTests</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace800281454", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace800281454'><pre>org.testng.TestNGException: 
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1430439149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1430439149'><pre>org.testng.TestNGException: 
 Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
 
 	at org.testng.internal.Parameters.createParams(Parameters.java:267)
@@ -573,48 +512,7 @@ Parameter &apos;browser&apos; is required by BeforeClass on method setup but has
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
 <td>0</td>
-<td>test.AllTests@2e377400</td></tr>
-<tr>
-<td title='com.smoketestcases.SmokeTest.usedCars()'><b>usedCars</b><br>Test class: com.smoketestcases.SmokeTest</td>
-<td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
-
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1944201789", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1944201789'><pre>org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
-
-	at org.testng.internal.Parameters.createParams(Parameters.java:267)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:684)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:277)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:806)
-	at org.testng.TestRunner.run(TestRunner.java:601)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-</pre></div></td>
-<td>0</td>
-<td>com.smoketestcases.SmokeTest@24aed80c</td></tr>
+<td>regression.RegressionTests@21de60b4</td></tr>
 </table><p>
 </body>
 </html>

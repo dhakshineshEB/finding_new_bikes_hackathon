@@ -14,7 +14,7 @@ import io.cucumber.junit.CucumberOptions;
                    dryRun=false,
                    monochrome=true,
                    publish=true,
-                   tags="@smoke"
+                   tags="@regression"
                   )
 public class testRun {
 

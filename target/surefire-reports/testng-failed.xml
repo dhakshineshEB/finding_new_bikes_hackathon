@@ -3,34 +3,26 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.regressiontestcases.RegressionTests">
-        <methods>
-          <include name="testGoogleSignIn"/>
-          <include name="setup"/>
-          <include name="closeDriver"/>
-          <include name="upComingBikes"/>
-          <include name="usedCars"/>
-        </methods>
-      </class> <!-- com.regressiontestcases.RegressionTests -->
-      <class name="test.AllTests">
+      <class name="regression.RegressionTests">
         <methods>
           <include name="closeDriver"/>
-          <include name="teardown"/>
+          <include name="capture_errormessage"/>
           <include name="usedCars"/>
           <include name="setup"/>
-          <include name="upComingBikes"/>
           <include name="testGoogleSignIn"/>
+          <include name="upComingBikes"/>
         </methods>
-      </class> <!-- test.AllTests -->
-      <class name="com.smoketestcases.SmokeTest">
+      </class> <!-- regression.RegressionTests -->
+      <class name="smoke.SmokeTest">
         <methods>
-          <include name="closeDriver"/>
           <include name="usedCars"/>
           <include name="upComingBikes"/>
-          <include name="setup"/>
           <include name="testGoogleSignIn"/>
+          <include name="newbikemenu"/>
+          <include name="setup"/>
+          <include name="closeDriver"/>
         </methods>
-      </class> <!-- com.smoketestcases.SmokeTest -->
+      </class> <!-- smoke.SmokeTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

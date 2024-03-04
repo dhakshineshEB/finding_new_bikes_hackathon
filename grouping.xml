@@ -9,12 +9,12 @@
 	<groups>
 		<run>
 			<include name="regression"/>
-			<!--<include name="regression"/> -->
+			<!--<include name="smoke"/> -->
 		</run>
 		</groups>
 	<classes>
-      <class name="com.regressiontestcases.RegressionTests"/>
-       <class name="com.smoketestcases.SmokeTest"/>
+      <class name="regression.RegressionTests"/>
+       <class name="smoke.SmokeTest"/>
     </classes>
 </test> <!-- Test -->
 <test thread-count="5" name="chromeTest">
@@ -26,8 +26,8 @@
 		</run>
 		</groups>
 	<classes>
-      <class name="com.regressiontestcases.RegressionTests"/>
-       <class name="com.smoketestcases.SmokeTest"/>
+      <class name="regression.RegressionTests"/>
+       <class name="smoke.SmokeTest"/>
     </classes>
 </test> <!-- Test -->
 </suite> <!-- Suite -->

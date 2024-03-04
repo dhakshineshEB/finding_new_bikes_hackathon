@@ -1,8 +1,7 @@
 package stepdefinition;
 
-import com.basePage.Base;
-import com.googlesignin.GoogleSignin;
-
+import basePage.Base;
+import googlesignin_functionality.GoogleSignin;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

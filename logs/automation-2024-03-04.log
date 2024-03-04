@@ -1,0 +1,54 @@
+15:28:35.313 [main] INFO  regression.RegressionTests - new bike menu is clicked
+15:28:35.544 [main] INFO  regression.RegressionTests - selecting the upcoming bikes option
+15:28:36.847 [main] INFO  regression.RegressionTests - choosing the manufacturer as honda
+15:28:39.240 [main] INFO  regression.RegressionTests - getting the bike details and printing in the console
+15:28:45.462 [main] INFO  regression.RegressionTests - getting the popular car models list
+15:28:46.309 [main] ERROR regression.RegressionTests - used cars testcase failed
+15:28:46.837 [main] INFO  regression.RegressionTests - verifying the google sign in functionality
+15:29:03.078 [main] INFO  regression.RegressionTests - driver is initiated and the website is launched
+15:29:13.105 [main] INFO  regression.RegressionTests - new bike menu is clicked
+15:29:14.398 [main] INFO  regression.RegressionTests - selecting the upcoming bikes option
+15:29:15.322 [main] INFO  regression.RegressionTests - choosing the manufacturer as honda
+15:29:19.128 [main] INFO  regression.RegressionTests - getting the bike details and printing in the console
+15:29:23.307 [main] INFO  regression.RegressionTests - getting the popular car models list
+15:29:28.987 [main] INFO  regression.RegressionTests - verifying the google sign in functionality
+15:30:07.599 [main] ERROR regression.RegressionTests - google sign in testcase failed
+15:32:10.961 [main] INFO  regression.RegressionTests - driver is initiated and the website is launched
+15:32:22.024 [main] INFO  regression.RegressionTests - new bike menu is clicked
+15:32:22.227 [main] INFO  regression.RegressionTests - selecting the upcoming bikes option
+15:32:23.457 [main] INFO  regression.RegressionTests - choosing the manufacturer as honda
+15:32:29.034 [main] INFO  regression.RegressionTests - getting the bike details and printing in the console
+15:32:34.612 [main] INFO  regression.RegressionTests - getting the popular car models list
+15:32:40.671 [main] INFO  regression.RegressionTests - verifying the google sign in functionality
+15:32:54.520 [main] INFO  regression.RegressionTests - driver is initiated and the website is launched
+15:33:01.835 [main] INFO  regression.RegressionTests - new bike menu is clicked
+15:33:02.246 [main] INFO  regression.RegressionTests - selecting the upcoming bikes option
+15:33:07.495 [main] INFO  regression.RegressionTests - choosing the manufacturer as honda
+15:33:09.348 [main] INFO  regression.RegressionTests - getting the bike details and printing in the console
+15:33:14.416 [main] INFO  regression.RegressionTests - getting the popular car models list
+15:33:19.850 [main] INFO  regression.RegressionTests - verifying the google sign in functionality
+15:40:55.641 [main] INFO  regression.RegressionTests - driver is initiated and the website is launched
+15:41:07.688 [main] INFO  regression.RegressionTests - new bike menu is clicked
+15:41:07.905 [main] INFO  regression.RegressionTests - selecting the upcoming bikes option
+15:41:09.054 [main] INFO  regression.RegressionTests - choosing the manufacturer as honda
+15:41:15.231 [main] INFO  regression.RegressionTests - getting the bike details and printing in the console
+15:41:20.439 [main] INFO  regression.RegressionTests - getting the popular car models list
+15:41:27.052 [main] INFO  regression.RegressionTests - verifying the google sign in functionality
+15:41:34.470 [main] INFO  regression.RegressionTests - capturing the error message
+15:41:36.584 [main] ERROR regression.RegressionTests - error message capturing testcase failed
+15:41:37.088 [main] INFO  regression.RegressionTests - browser is closed
+15:41:44.467 [main] INFO  regression.RegressionTests - driver is initiated and the website is launched
+15:41:51.961 [main] INFO  regression.RegressionTests - new bike menu is clicked
+15:41:52.425 [main] INFO  regression.RegressionTests - selecting the upcoming bikes option
+15:41:53.017 [main] ERROR regression.RegressionTests - upcoming bikes testcase failed
+15:41:53.484 [main] INFO  regression.RegressionTests - getting the popular car models list
+15:42:01.059 [main] INFO  regression.RegressionTests - verifying the google sign in functionality
+15:42:08.974 [main] INFO  regression.RegressionTests - capturing the error message
+15:42:11.119 [main] ERROR regression.RegressionTests - error message capturing testcase failed
+15:42:11.400 [main] INFO  regression.RegressionTests - browser is closed
+21:56:47.443 [main] INFO  regression.RegressionTests - driver is initiated and the website is launched
+21:59:32.926 [main] INFO  regression.RegressionTests - new bike menu is clicked
+21:59:52.066 [main] INFO  regression.RegressionTests - selecting the upcoming bikes option
+21:59:53.441 [main] INFO  regression.RegressionTests - choosing the manufacturer as honda
+22:00:28.226 [main] INFO  regression.RegressionTests - getting the bike details and printing in the console
+22:00:59.602 [main] INFO  regression.RegressionTests - getting the popular car models list

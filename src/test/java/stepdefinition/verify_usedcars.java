@@ -5,12 +5,11 @@ import java.io.IOException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
-import com.basePage.Base;
-import com.usedcars.UserCars;
-
+import basePage.Base;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import usedcars_functionality.UserCars;
 
 public class verify_usedcars extends Base{
 	UserCars userCars;
